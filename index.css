@@ -257,12 +257,12 @@ body,html {
 #footer {
     width:100%;
     padding:10vh 0px;
-    text-align:center;
+    text-align:right;
     font-weight:bold;
 }
 #footer a {
-    font-size:18px;
-    background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
+    font-size:6px;
+    background-image: linear-gradient(to left, #454444 0%, #2f2e2e 100%);
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
@@ -274,6 +274,7 @@ body,html {
     font-family: 'Comfortaa', cursive;
     text-decoration:none;
 }
+
 button:focus {
     outline:none;
 }

@@ -12,7 +12,15 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <style>
+        ul {
+            list-style-type: disc;
+            padding-left: 30px;
+        }
+        li {
+            padding: 2px 0;
+        }
+    </style>
 </head>
 <body>
     <div id="loading">
@@ -47,27 +55,58 @@
              <div id="skills">
                  <h1>skills.</h1>   
                  <div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate. Sed tortor enim, rhoncus vel mauris vitae, elementum condimentum augue. Donec fermentum lobortis lectus, in feugiat turpis faucibus et. Pellentesque luctus metus vitae augue lobortis sagittis vitae sit amet enim. Morbi egestas velit ac arcu fermentum lacinia. Nullam eget hendrerit neque. Cras et laoreet ante. Vivamus condimentum euismod commodo. Nulla pulvinar, turpis vitae condimentum tempor, ex ex eleifend quam, et maximus sapien mi sed est. Donec elit mi, dictum nec magna quis, mollis sollicitudin ligula. Maecenas ullamcorper ante vel ullamcorper mollis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                        </p>
+                    <ul>
+
+                        <li>Programming languages: <i>Python, Matlab</i></li>
+                        <li>Machine learning libraries: <i>Scikit-Learn, TensorFlow, PyTorch</i></li>
+                        <li>Statistics and Mathematics: <i>Linear Algebra, Probability Theory, Calculus, Statistical Inference</i></li>
+                        <li>Data preprocessing and cleaning:<i>Pandas, NumPy</i></li>
+                        <li>Data visualization: <i>Matplotlib, Seaborn</i></li>
+                        <li>Algorithms: <i>Regression, Classification, Clustering, Decision Trees, Random Forests, Neural Networks</i></li>
+                        <li>Evaluation Metrics: <i>Precision, Recall, Accuracy, F1-Score, ROC-AUC</i></li>
+                        <li>Software Engineering: <i>Docker, Agile Methodologies</i></li>
+                        <li>Communication and collaboration: <i>Good communication skills, Teamwork, Ability to work in a diverse team</i></li>
+                    </ul>
                  </div> 
              </div>
          
               <div id="work">
                  <h1>works.</h1>
-
                  <div class="project">
-                 <h2>project title 1</h2>
-                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate.</div>
-                 <button class="btn_one">visit project</button>
+                 <h2>HEART ANATOMY SEGMENTATION</h2>
+                 <div>In a quest to refine cardiovascular diagnostics, I delved deep into segmenting six pivotal heart structures: RA, RV, LA, LV, MC, and AA. Utilizing the prowess of U-Net within Tensorflow, I capitalized on its unparalleled ability to capture intricate details. The journey was riddled with challenges: curating a robust dataset, deciphering the maze of cardiac textures, and mastering model refinements. With the Dice score as my compass, I surmounted these obstacles, revealing the model's commendable accuracy. This venture illuminated the transformative potential of machine learning in medical imaging's future.</div>
                 </div>
 
                 <div class="project">
-                 <h2>project title 2</h2>
-                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis urna, condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum non euismod nulla, eu pretium risus. Curabitur porta molestie vulputate.
+                 <h2>PULMONARY ARTERY SEGMENTATION</h2>
+                 <div>Determined to redefine the precision in pulmonary artery imaging, I channeled cutting-edge U-Net architecture, a beacon in biomedical image analysis. While its initial prowess was evident, the labyrinth of vascular structures around the artery posed precision challenges. The dataset's diversity became a pivotal concern, prompting a deeper dive into its composition. Tailoring U-Net necessitated iterative tweaks, and the game-changer was the strategic inclusion of negative samples. This meticulous approach culminated in a model with superior artery segmentation accuracy, reaffirming the transformative potential of AI in medical diagnostics and the power of diverse training data. 
                  </div>
-                 <button class="btn_one">visit project</button>
-                 <button class="btn_two">code</button>
+                 <!--button class="btn_one">visit project</button>
+                 <button class="btn_two">code</button-->
+                </div>
+
+                <div class="project">
+                 <h2>LSTM FOR PREDICTING ENERGY CONSUMPTION</h2>
+                 <div>In a rapidly evolving energy paradigm, our team united with a singular mission: to harness deep learning for pinpoint energy consumption forecasting over a pivotal 100-day span. Using Python, we championed the LSTM model, renowned for time-series mastery. Real-world energy trends, depicted in red, were measured against our blue-hued LSTM predictions from May to mid-June 2018. Initial predictions posed challenges, and the intricate energy data landscape tested our model's mettle. However, meticulous LSTM calibration led to a rise in accuracy from 93% to 99%. Our collaborative journey and LSTM's prowess culminated in an impressive 96.6% overall accuracy, underscoring the fusion of teamwork and AI in transforming the energy sector's future. 
+                 </div>
+                </div>
+
+                <div class="project">
+                 <h2>COMPARATIVE ANALYSIS OF MOBILENET AND RESNET</h2>
+                 <div>Embarking on a journey to juxtapose two neural powerhouses, MobileNet and ResNet, I delved deep into the intricacies of transfer learning. Anchored in Python and powered by PyTorch, my exploration traced model enhancements via detailed ROC curves, from scratch to the finesse of fine-tuning. Navigating challenges like striking a balance between speed and accuracy, mastering the art of transfer learning, and handling hardware constraints, I drew clear distinctions. While MobileNet_V3 Small shone in rapid results, ResNet34 was unparalleled in precision. The project unveiled a key insight: the choice of architecture pivots on project needs, be it time-efficiency or sheer accuracy, enriching my neural network acumen.
+                 </div>
+                </div>
+
+                <div class="project">
+                 <h2>AUTOMATIC JOINT SPACE WIDTH MEASUREMENT AND ANALYSIS</h2>
+                 <div>In a quest to revolutionize early RA detection, our team envisioned an automated system to scrutinize joint space width in hand radiographs. Harnessing MATLAB's image processing capabilities, we transitioned from Gaussian Filtering to nuanced Binarization and morphological refinements, laying the foundation for our groundbreaking algorithms. Confronting challenges like image variability and the subtle nuances of RA-affected joints, our commitment to balancing speed with precision was unwavering. The result? A system that redefined accuracy and efficiency in RA diagnostics, spotlighting the transformative power of automation in medical imaging and setting new benchmarks for the future.
+                 </div>
+                </div>
+
+                <div class="project">
+                 <h2>FACE DETECTION USING NN</h2>
+                 <div>Driven by the evolving significance of facial recognition, my mission was to craft a system capable of extracting facial features with unmatched precision. Anchored in MATLAB and employing k-means clustering, I seamlessly integrated a tailored neural network for binary classification, elevating segmentation finesse. Navigating challenges like facial uniqueness, algorithmic integration, and real-time processing, I achieved remarkable results. With an 88.9% precision in feature classification and a 97% face segmentation success rate, the system adeptly recognized eyes, mouth, and nose. This venture underlined the harmony of clustering and neural networks, setting a precedent for future image analysis innovations. 
+                 </div>
                 </div>
 
              </div>
@@ -75,7 +114,9 @@
               <div id="contact">
                  <h1>contact.</h1> 
                  <tr>
-                    <td><i class="fas fa-at"></i> &nbsp; marwadi.3@wright.edu</td><br><br>
+                    <td><i class="fas fa-at"></i>
+                        <a href="mailto:marwadi.3@wright.edu">marwadi.3@wright.edu</a>
+                    </td><br><br>
                  </tr>
                  <tr>
                     <td><i class="fas fa-phone"></i> &nbsp; +1 248 697 8214</td><br><br>
@@ -86,7 +127,7 @@
              </div>
     </div>
     <div id="footer">
-        made on earth by a human <br><br> <a href="https://imfunniee.github.io">imfunniee</a>
+        <a> webpage theme credit -</a> <a href="https://imfunniee.github.io" target="_blank">imfunniee</a>
     </div>
 <script src="index.js" type="text/javascript"></script>
 </body>
